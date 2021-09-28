@@ -1,0 +1,72 @@
+body{
+    font-family: "ヒラギノ明朝 ProN", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+} 
+a:hover{
+    opacity: 0.5;
+}
+.wrap{
+ width: 100%;
+ margin: auto;
+}
+.container{
+    width: 1120px;
+    margin: auto;
+}
+.bg_gray{background-color: #acc2d1;}
+.bg_white{background-color: #fff;}
+.mb50{margin-bottom: 50px;}
+h2{font-size: 30px; font-weight: bold; text-align: center; margin: 1em 0;}
+
+p{font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 1em;}
+
+/* Main Visual */
+.main_visual .slide ul li{
+    margin: auto;
+}
+.main_visual .slide ul li a{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.slider{
+    margin:auto;
+    width: 100%;
+}
+.slider img{
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+  /* slider*/
+  .slider .bg_gray{
+      padding-bottom: 50px;
+  }
+
+  .bg_gray h2{
+      line-height: 62px;
+  }
+.slick_center{
+    min-width: 1140px;
+    width: 90%;
+    padding: 40px 0;
+    margin: auto;
+}
+.slick_center .slick-slide {
+    margin: 0 20px;
+}
+
+.slider{
+    min-width: 1140px;
+    width: 90%;
+    padding: 40px 0;
+    margin: auto;
+}
+.slider li{
+    margin-right: 20px;
+}
+

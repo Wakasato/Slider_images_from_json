@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>slick from json data</title>
+        <meta name="format-detection" content="telephone=no" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="./asset/css//destyle.css" />
+        <link rel="stylesheet" href="./asset/css/slick-theme.css" />
+        <link rel="stylesheet" href="./asset/css/slick.css" />
+        <link rel="stylesheet" href="./asset/css/style.css" />
+        <!-- js -->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+          </script>
+    </head>
+    <body>
+
+<section class="wrap main_visual mb50">
+  <ul class="slider mv main_visual" id="main_visual">
+  </ul>
+</section>
+
+<section class="slider">
+  <div class="wrap bg_gray mb50">
+     <h2>slider</h2>
+     <div class="wrap bg_white">
+      <ul class="slider" id="slider"></ul>
+     </div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>About This Code</h2>
+  <p>
+    What would you do in this situation?<br>
+    Your customer requests that they want update website's slider images without using html or CSS.<br>
+    But You can't use PHP because of their server's restriction.<br>
+    My works have kind of that problems sometimes.<br>
+  </p><p>
+    This kind of restriction apply to Japanese server service like "Rakuten Gold".<br>
+    In this situation, I have to use javascript and json.<br>
+    In Generally, customers edit json files which have data of image's name, file's location, and title.<br>
+    After that, they upload only json files with FTP apps.<br>
+    It is not difficult for customer who can use Excel or Word.
+  </p><p>
+    So, I wrote javascript that import json data, change DOM, execute slider moving function.<br>
+    It have call back function to allow slider function executing after<br>
+    changed DOM  including json data.<br>
+    It is little complicated and tirign.<br>
+    I don't want write this code twice.<br>
+    In addition, I thought that someone need this codes in this huge world.<br>
+    For that reason, I upload this code.<br>
+  </p>
+</section>
+<section class="container">
+  <h2>このコードについて</h2>
+  <p>
+    このような場合、あなたならどうしますか？<br>
+    あなたの顧客から、htmlやCSSを使わずにWebサイトのスライダー画像を更新したいという要望がありました。<br>
+    でも、サーバーの制限でPHPが使えません。<br>
+    私の仕事では、こういう話が時々あります。<br>
+  </p><p>
+    このような制限は、「楽天ゴールド」のような日本のサーバーであります。<br>
+    こういう場合、javascriptとjsonを使わなければなりません。<br>
+    一般的に、お客様は画像の名前、ファイルの場所、タイトルなどのデータが入ったjsonファイルを編集します。<br>
+    その後、FTPアプリでjsonファイルだけをアップロードします。<br>
+    エクセルやワードを使えるお客様にとっては難しくありません。<br>
+  </p><p>
+    そこで、jsonデータを取り込み、DOMを変更し、スライダーを動かす機能を実行するJavascriptを書きました。<br>
+    jsonデータを含むDOMを変更した後にスライダー関数を実行できるように、コールバック関数があります。<br>
+    ちょっと複雑で面倒す。<br>
+    このコードを2回は書きたくないです。<br>
+    また、このコードは色い世界で誰かに必要とされているのではないかと思いました。<br>
+    そのために、このコードをアップロードしました。<br>
+  </p>
+</section>
+
+  <script src="./asset/js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./asset/js/slick.min.js"></script>
+  <script src="./asset/js/script.js"></script>
+    </body>
+</html>

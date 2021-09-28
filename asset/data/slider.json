@@ -1,0 +1,11 @@
+﻿[
+{"id":1,"title":"google","text":"","src":"slider01.jpg","url":"https://www.google.com/"},
+{"id":2,"title":"github wakasato","text":"","src":"slider02.jpg","url":"https://github.com/Wakasato/"},
+{"id":3,"title":"digital ocean","text":"","src":"slider03.jpg","url":"https://www.digitalocean.com/"},
+{"id":1,"title":"youtube","text":"","src":"slider04.jpg","url":"https://www.youtube.com/"},
+{"id":2,"title":"jQuery","text":"","src":"slider05.jpg","url":"https://code.jquery.com/"},
+{"id":3,"title":"fontawesome","text":"","src":"slider06.jpg","url":"https://fontawesome.com/start"},
+{"id":1,"title":"php.net","text":"","src":"slider07.jpg","url":"https://www.php.net/"},
+{"id":2,"title":"WordPress Codex Jp","text":"","src":"slider08.jpg","url":"http://wpdocs.osdn.jp/"},
+{"last_modified":"2021/08/10"}
+]
