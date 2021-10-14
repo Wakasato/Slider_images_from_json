@@ -8,7 +8,7 @@ slider function of jQuery that imported json data
     But You can't use PHP because of their server's restriction.
     My works have kind of that problems sometimes.
   </p><p>
-    This kind of restriction apply to Japanese server service like "Rakuten Gold".<br>
+    This kind of restriction apply to Japanese server.<br>
     In this situation, I have to use javascript and json.
     In Generally, customers edit json files which have data of image's name, file's location, and title.
     After that, they upload only json files with FTP apps.
@@ -26,11 +26,11 @@ slider function of jQuery that imported json data
   ##　このコードについて
   <p>
     このような場合、あなたならどうしますか？<br>
-    あなたの顧客から、htmlやCSSを使わずにWebサイトのスライダー画像を更新したいという要望がありました。<br>
+    顧客から、htmlやCSSを使わずにWebサイトのスライダー画像を更新したいという要望がありました。<br>
     でも、サーバーの制限でPHPが使えません。<br>
     私の仕事では、こういう話が時々あります。<br>
   </p><p>
-    このような制限は、「楽天ゴールド」のような日本のサーバーであります。<br>
+    このような制限は、日本のサーバーであります。<br>
     こういう場合、javascriptとjsonを使わなければなりません。<br>
     一般的に、お客様は画像の名前、ファイルの場所、タイトルなどのデータが入ったjsonファイルを編集します。<br>
     その後、FTPアプリでjsonファイルだけをアップロードします。<br>
